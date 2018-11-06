@@ -1,0 +1,325 @@
+@import "fonts.css";
+
+body{
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    background: #2ecc71;
+    color: #5a5a5a;
+}
+
+a{
+    display: inline-block;
+    color: #fff;
+}
+
+a:hover{
+    color: #fff;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+h3{
+    font-size: 64px;
+}
+
+h4{
+    font-size: 40px;
+}
+
+header, footer{
+    padding-top: 20px;
+    color: #fff;
+}
+
+.navbar li{
+    margin: 0 10px;
+}
+
+input[type=submit]{
+    color: #2ecc71;
+    background: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.help{
+    margin-top: 70px;
+    color: #fff;
+    position: relative;
+}
+
+.fruit-1{
+    position: absolute;
+    background: url("../img/header_bg_left.png") no-repeat;
+    height: 342px;
+    width: 176px;
+    left: 0;
+    top: 20%;
+}
+
+.fruit-2{
+    background: url("../img/header_bg_right.png") no-repeat;
+    position: absolute;
+    height: 253px;
+    width: 250px;
+    right: 5%;
+    top: 30%;
+}
+
+.help .row{
+    position: relative;
+}
+
+.fruit-3{
+    background: url("../img/header_banana_left.png") no-repeat;
+    position: absolute;
+    width: 234px;
+    height: 192px;
+    top: 0;
+    left: 30%;
+}
+
+.fruit-4{
+    background: url("../img/header_apple_right.png") no-repeat;
+    position: absolute;
+    width: 121px;
+    height: 130px;
+    right: -90px;
+    bottom: 10%;
+}
+
+.fruit-5{
+    background: url("../img/header_srowbarry.png") no-repeat;
+    position: absolute;
+    width: 155px;
+    height: 185px;
+    bottom: -70px;
+    left: 35%;
+}
+
+.fruit-6{
+    background: url("../img/plan_pepper.png") no-repeat;
+    position: absolute;
+    width: 188px;
+    height: 193px;
+    top: 30%;
+    left: 7%;
+}
+
+.fruit-7{
+    background: url("../img/plan_strowberry.png") no-repeat;
+    position: absolute;
+    width: 145px;
+    height: 138px;
+    top: 40%;
+    right: 10%;
+}
+
+.fruit-8{
+    background: url("../img/footer_bg_right.png") no-repeat;
+    position: absolute;
+    width: 236px;
+    height: 262px;
+    top: 100%;
+    right: 0;
+}
+
+.fruit-9{
+    background: url("../img/footer_bg_left.png") no-repeat;
+    position: absolute;
+    width: 201px;
+    height: 291px;
+    top: 80%;
+    left: 0;
+}
+
+.photo-help{
+    background: url("../img/phone.jpg") no-repeat 100% 0;
+    height: 756px;
+}
+
+.help h3{
+    margin-top: 40px;
+}
+
+.help-text{
+    margin-top: 100px;
+    margin-bottom: 212px;
+}
+
+.help p{
+    width: 611px;
+    line-height: 1.6em;
+    margin-top: 20px;
+}
+
+.download img{
+    margin-right: 30px;
+}
+
+.counter{
+    background: #fff;
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+.photo-counter{
+    background: url("../img/phone_counter.jpg") no-repeat;
+    height: 704px;
+}
+
+span{
+    color: #2ecc71;
+}
+
+.counter h4{
+    margin-top: 280px;
+}
+
+.counter p{
+    width: 470px;
+}
+
+.plan{
+    background: #f9f9f9;
+    padding-top: 116px;
+    position: relative;
+}
+
+.plan p, footer p{
+    width: 860px;
+}
+
+.photo-plan{
+    background: url("../img/phone_plan.jpg") no-repeat 50% 100%;
+    padding-bottom: 630px;
+}
+
+.manager{
+    background: #fff;
+    padding: 105px 0 140px 0;
+}
+
+.manager-text{
+    margin-top: 125px;
+}
+
+.food-menu{
+    width: 570px;
+}
+
+.manager-box{
+    border: 2px solid #eceded;
+    border-radius: 8px;
+    width: 420px;
+    padding: 20px 19px;
+    margin-bottom: 30px;
+}
+
+.box-text{
+    padding-left: 133px;
+    position: relative;
+}
+
+.box-text:before{
+    content: "";
+    position: absolute;
+    left: 0;
+}
+
+.apple .box-text:before{
+    background: url("../img/apple.jpg") no-repeat;
+    width: 95px;
+    height: 73px;
+}
+
+.sandwich .box-text:before{
+    background: url("../img/sandwich.jpg") no-repeat;
+    width: 126px;
+    height: 94px;
+}
+
+.salad .box-text:before{
+    background: url("../img/salad.jpg") no-repeat;
+    width: 109px;
+    height: 62px;
+}
+
+.box-text p{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.box-text p:nth-child(odd){
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+.box-text p:nth-child(1){
+    font-size: 16px;
+}
+
+.box-time{
+    line-height: 1.1em;
+}
+
+.box-time time{
+    color: #2ecc71;
+}
+
+.past time, b{
+    color: #b4b4b4;
+}
+
+time{
+    font-size: 25px;
+}
+
+.box-time p{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    color: #b4b4b4;
+}
+
+.now{
+    width: 520px;
+    margin-right: 0;
+}
+
+.now p{
+    font-size: 15px;
+}
+
+.now p:nth-child(1){
+    font-size: 20px;
+}
+
+.now .box-text {
+    padding-left: 150px;
+}
+.now time{
+    font-size: 31px;
+}
+
+.now .box-time p{
+    font-size: 20px;
+}
+
+footer{
+    padding: 130px 0 100px 0;
+    position: relative;
+}
+
+footer input[type=submit]{
+    padding: 5px 40px;
+    margin-right: 0;
+    margin-top: 40px;
+}
+
